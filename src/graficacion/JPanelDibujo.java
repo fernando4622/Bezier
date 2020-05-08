@@ -21,9 +21,9 @@ public class JPanelDibujo extends JPanel implements MouseMotionListener {
     boolean initiated = false;
 
     public JPanelDibujo() {
-        super();
-
+        super();        
     }
+  
 
     public void init(){
         n = 4;
@@ -185,7 +185,5 @@ public class JPanelDibujo extends JPanel implements MouseMotionListener {
 
         h1 = h - 1;
         w2 = w ;
-
-
     }
 }
